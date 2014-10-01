@@ -1,0 +1,33 @@
+.nav {
+  float: left;
+  padding-left: 0;
+  margin: 0;
+}
+
+.nav__item {
+  list-style: none;
+  border-left: 1px solid $minco-white-transparent;
+
+  @include respond-to(45em) {
+    display: inline-block;
+    margin-right: -4px;
+  }
+
+  &:last-of-type {
+    border-right: 1px solid $minco-white-transparent;
+  }
+}
+
+.nav__link {
+  display: inline-block;
+  color: $minco-white;
+  font-weight: $font-medium;
+  text-decoration: none;
+  padding: baseline-unit(7) baseline-unit(3);
+
+  &:hover,
+  &:focus {
+    background-color: $minco-blue;
+  }
+
+}
