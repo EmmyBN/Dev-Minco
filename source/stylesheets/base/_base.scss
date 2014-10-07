@@ -1,18 +1,18 @@
 body {
   font-family: $default-font-stack;
-}
+}//body
 
 p {
   @extend %basic-paragraph;
-}
+}//p
 
 blockquote {
   @extend %basic-paragraph;
-}
+}//blockquote
 
 li {
   @extend %basic-paragraph;
-}
+}//li
 
 
 
@@ -21,4 +21,10 @@ blockquote,
 li {
   font-size: 18px;
   font-family: Museo Sans;
-}
+}//p, blockquote, li
+
+.clear {
+  clear:both;
+}//clear
+
+@import url('http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');

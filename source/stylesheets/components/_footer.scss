@@ -1,6 +1,7 @@
 .footer {
   background-color: $minco-black;
   border-top: $border-thick;
+  overflow: hidden;
 }
 
 .footer-links {
@@ -22,7 +23,7 @@
   padding: baseline-unit(2);
 
   &:visited {
-    colour: blue;
+    color: $minco-white;
   }
 
   &:hover,

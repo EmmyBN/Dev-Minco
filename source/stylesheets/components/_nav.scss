@@ -26,6 +26,7 @@
   padding: baseline-unit(7) baseline-unit(3);
 
   &:hover,
+  &:active,
   &:focus {
     background-color: $minco-blue;
   }
