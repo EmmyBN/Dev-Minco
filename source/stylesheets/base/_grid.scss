@@ -4,20 +4,21 @@
   margin: 0 auto;
 }
 
+.l-content {
+  width:100%;
+  margin-right:auto;
+  margin-left: 4%;
+}
+
 .l-sidebar{
   width: 13%;
   float: left;
   margin-top: 3.70%;
+  border-right: solid 0.1em $minco-blue;
 }
 
 .l-main {
   width: 85%;
   float: right;
   margin-top: 3.70%;
-  border-left: solid 0.1em $minco-blue;
-}
-
-.l-content {
-  width:100%;
-  margin-left: 4%;
 }
