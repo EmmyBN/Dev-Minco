@@ -2,12 +2,15 @@
 
 @import 'compass';
 @import 'compass/reset';
+
 @import 'settings';
 @import 'lib/mixins';
 @import 'lib/media';
 
 @import 'base/base';
-@import 'base/grid';
+@import 'base/images';
+
+@import 'layout/grid';
 
 @import 'components/header';
 @import 'components/logo';
@@ -17,7 +20,8 @@
 @import 'components/slideshow';
 @import 'components/homepage-comp';
 
-// TEMP CODE
+
+////////// TEMPORARY HACKS
 
 main {
   height: 500px;

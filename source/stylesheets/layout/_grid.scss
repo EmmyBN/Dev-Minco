@@ -1,0 +1,43 @@
+.l-constrained {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.l-content {
+  width:100%;
+  margin-right:auto;
+  margin-left: 4%;
+}
+
+.l-sidebar {
+  width: 100%;
+  float: left;
+  border-right: solid 0.1em $minco-blue;
+
+  @include respond-to($small, $medium) {
+    width: 25%;
+    margin-top: 3.70%;
+  }
+
+  @include respond-to($medium) {
+    width: 13%;
+    margin-top: 3.70%;
+  }
+}
+
+.l-main {
+  width: 100%;
+  margin-top: 3.70%;
+
+  @include respond-to($small, $medium) {
+    width: 75%;
+    margin-top: 3.70%;
+  }
+
+  @include respond-to($medium) {
+    width: 85%;
+    float: right;
+    margin-top: 3.70%;
+  }
+}
