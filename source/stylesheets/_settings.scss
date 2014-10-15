@@ -18,24 +18,12 @@ $default-line-height: 1.7;
 
 $font-bold: 700;
 $font-medium: 500;
-
-%basic-paragraph {
-  font-size: 18px;
-  font-family: $default-font-stack;
-}
+$font-light: 300;
 
 // Baseline unit
 
 $baseline-unit: 6;
 $browser-default-font-size: 16;
-
-@function baseline-unit($multiplier) {
-  @return ($multiplier * $baseline-unit) / $browser-default-font-size + rem
-}
-
-.clear {
-    clear:both;
-}
 
 
 // Breakpoints
