@@ -20,3 +20,8 @@
     @content;
   }
 }
+
+@mixin font-size($value) {
+  font-size: $value + px;
+  font-size: ($value / $default-font-size) + rem;
+}
