@@ -32,3 +32,10 @@ $browser-default-font-size: 16;
 .clear {
     clear:both;
 }
+
+
+// Breakpoints
+
+$small: 30em; // 480px
+$medium: 48em; // 768px
+$large: 61em; // 976px
